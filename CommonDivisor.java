@@ -5,7 +5,7 @@ public class CommonDivisor {
     public static void main(String[] args)
     {
         CommonDivisor obj = new CommonDivisor();
-        obj.print_common_divisior(100,120);
+        obj.print_common_divisior(7,14);
     }
 
     void print_common_divisior(int no1, int no2)
@@ -15,7 +15,7 @@ public class CommonDivisor {
         int lcd = 0;
         int cdbl = 0;
         int mcd = 0;
-        while(i<=no/2)
+        while(i<=no)
         {
             if(no1%i==0 && no2%i==0)
             {
